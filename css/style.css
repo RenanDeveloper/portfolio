@@ -1,0 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@400;500&family=Oswald:wght@400;500&family=Smooch&display=swap');/* font-family: 'Smooch', cursive; */
+/*
+Fonts disponíveis:
+font-family: 'Dancing Script', cursive; 400
+font-family: 'Montserrat', sans-serif; 400 e 500
+font-family: 'Oswald', sans-serif; 400 e 500
+font-family: 'Smooch', cursive; 400
+*/
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
