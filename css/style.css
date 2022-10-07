@@ -12,5 +12,68 @@ font-family: 'Smooch', cursive; 400
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Montserrat;
 }
 
+#container{
+    background-color: lightblue;
+    width: 75%;
+    margin: auto;
+    padding: 20px;
+}
+
+h1,h2,h3,h4{
+    font-family: Dancing Script;
+}
+
+nav{
+    position: sticky;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    
+}
+
+nav a{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav a :hover{
+    color: orange;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+#img-perfil{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.img-curso-container{
+    display: flex;
+    height: 120px;
+    width: 120px;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+}
+
+.logo-curso{
+    width: 100px;
+}
+
+.img-projeto-container{
+    display: flex;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+}
+.img-projeto{
+    width: 600px;
+    
+}
