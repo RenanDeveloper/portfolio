@@ -28,6 +28,9 @@ h1,h2,h3,h4{
     margin: 20px 0px 20px 0px;
 }
 
+p{
+    text-align: justify;
+}
 
 nav{
     position: sticky;
@@ -100,6 +103,7 @@ section{
     text-transform: uppercase;
     background-color: transparent;
     color: #f6efed;
+    text-align: center;
 }
 
 .card-losango .texto-interno-card{
@@ -127,6 +131,5 @@ section{
 }
 .img-projeto{
     width: 600px;
-    
 }
 
