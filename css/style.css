@@ -16,19 +16,23 @@ font-family: 'Smooch', cursive; 400
 }
 
 #container{
-    background-color: lightblue;
     width: 75%;
     margin: auto;
-    padding: 20px;
+    padding: 40px;
+    color: #6b4c07;
 }
 
 h1,h2,h3,h4{
     font-family: Dancing Script;
+    color: #541207;
+    margin: 20px 0px 20px 0px;
 }
+
 
 nav{
     position: sticky;
     right: 0;
+    margin-bottom: 20px;
 }
 
 nav li{
@@ -41,17 +45,65 @@ nav a{
     font-weight: bold;
     padding: 10px;
     text-decoration: none;
+    color: #541207;
 }
 
 nav a :hover{
-    color: orange;
+    color: black;
     text-decoration: underline;
     transition: 0.3s;
+}
+
+#mensagem-inicial{
+    display: flex;
+    align-items: center;
+}
+
+#texto-mensagem-inicial{
+    padding-right: 20px;
 }
 
 #img-perfil{
     width: 200px;
     border-radius: 50%;
+}
+
+section{
+    margin-bottom: 20px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-quadrado, .card-losango{
+    display: flex;
+    width: 120px;
+    height: 120px;
+    background-color: #6b4c07;
+    margin: 10px;
+    justify-content: center;
+    align-self: center;
+    border-radius: 5px;
+}
+
+.card-losango{
+    transform: rotate(-45deg);
+    margin: 30px;
+    text-align: center;
+}
+
+.texto-interno-card{
+    align-self: center;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #f6efed;
+}
+
+.card-losango .texto-interno-card{
+    transform: rotate(+45deg);
 }
 
 .img-curso-container{
@@ -77,3 +129,4 @@ nav a :hover{
     width: 600px;
     
 }
+
