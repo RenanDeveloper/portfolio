@@ -9,7 +9,7 @@ font-family: 'Smooch', cursive; 400
 */
 
 *{
-    margin:0;
+    margin: 10px;
     padding: 0;
     box-sizing: border-box;
     font-family: Montserrat;
@@ -20,12 +20,18 @@ font-family: 'Smooch', cursive; 400
     margin: auto;
     padding: 40px;
     color: #6b4c07;
+    border:  10px double #541207;
+    padding: 15px;
 }
 
 h1,h2,h3,h4{
     font-family: Dancing Script;
     color: #541207;
     margin: 20px 0px 20px 0px;
+}
+
+section{
+    margin-bottom: 20px;
 }
 
 p{
@@ -71,10 +77,6 @@ nav a :hover{
     border-radius: 50%;
 }
 
-section{
-    margin-bottom: 20px;
-}
-
 .cards{
     display: flex;
     flex-wrap: wrap;
@@ -92,17 +94,19 @@ section{
     border-radius: 5px;
 }
 
+.card img{
+    width: 100px;
+}
+
+.card h3{
+    margin: 0;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    text-align: center;
+}
 .card-losango{
     transform: rotate(-45deg);
     margin: 30px;
-    text-align: center;
-}
-
-.texto-interno-card{
-    align-self: center;
-    text-transform: uppercase;
-    background-color: transparent;
-    color: #f6efed;
     text-align: center;
 }
 
