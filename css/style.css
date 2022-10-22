@@ -24,7 +24,7 @@ font-family: 'Smooch', cursive; 400
     padding: 15px;
 }
 
-h1,h2,h3,h4{
+h1,h2{
     font-family: Dancing Script;
     color: #541207;
     margin: 20px 0px 20px 0px;
@@ -104,27 +104,19 @@ nav a :hover{
     text-transform: uppercase;
     text-align: center;
 }
-.card-losango{
-    transform: rotate(-45deg);
-    margin: 30px;
+
+.artigo-cursos img{
+    width: 100px;
+}
+
+.artigo-cursos{
     text-align: center;
 }
 
-.card-losango .texto-interno-card{
-    transform: rotate(+45deg);
-}
-
-.img-curso-container{
-    display: flex;
-    height: 120px;
-    width: 120px;
-    justify-content: center;
-    align-items: center;
-    background-color: #FFF;
-}
-
-.logo-curso{
-    width: 100px;
+.artigo-cursos a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #541207;
 }
 
 .img-projeto-container{
@@ -133,7 +125,10 @@ nav a :hover{
     justify-content: center;
     align-items: center;
 }
+
 .img-projeto{
     width: 600px;
 }
+
+
 
