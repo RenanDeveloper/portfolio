@@ -161,3 +161,20 @@ nav a :hover{
     color: black;
     transition: 0.5s;
 }
+
+.formulario{
+    width:  fit-content;
+    margin: auto;
+}
+
+form label{
+    font-weight: bold;
+}
+
+form input{
+    height: 30px;
+}
+
+form input:focus{
+    background-color: lightgray;
+}
