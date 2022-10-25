@@ -81,24 +81,19 @@ nav a :hover{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    text-align: center;
 }
 
-.card-quadrado, .card-losango{
-    display: flex;
-    width: 120px;
-    height: 120px;
-    background-color: #6b4c07;
-    margin: 10px;
-    justify-content: center;
-    align-self: center;
-    border-radius: 5px;
+.artigo-cursos:hover{
+    background-color: rgba(0, 0, 0, .6);
+    border-radius: 15px;
 }
 
 .card img{
     width: 100px;
 }
 
-.card h3{
+.card h3, .artigo-projetos h2{
     margin: 0;
     font-family: Montserrat;
     text-transform: uppercase;
@@ -119,16 +114,50 @@ nav a :hover{
     color: #541207;
 }
 
-.img-projeto-container{
+.projetos-desenvolvidos{
     display: flex;
-    width: 600px;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.artigo-projetos{
+    background-color: black;
+    color: #FFF;
+    border-radius: 20px;
+    padding: 25px;
+    width: 450px;
+    min-width: 350px;
+    max-width: 800px;
+}
+
+.artigo-projetos h2{
+    color: rgba(255, 255, 255, .7);
+    padding: 5px;
+    border-radius: 10px;
+    background-color:cadetblue;
 }
 
 .img-projeto{
-    width: 600px;
+    width: 90%;
 }
 
+.artigo-projetos a{
+    text-decoration: none;
+}
 
+.botao-projeto{
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: aqua 2px solid;
+    background-color: black;
+    color: aqua;
+    transition: 0.5s;
+}
 
+.botao-projeto:hover{
+    background-color:aqua;
+    color: black;
+    transition: 0.5s;
+}
